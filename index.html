@@ -12,11 +12,11 @@
     <p id="p2">youll be able to tell the difference between me being able to press and me doomchecking my phone in the middle of <span id="reason2">school</span> to see what happened</p>
     <script>
         document.getElementById("input").addEventListener("keyup", () => {
-            var value = document.getElementById("input").value;
+            const value = document.getElementById("input").value;
             let a = document.getElementById("reason1");
             let b = document.getElementById("reason2");
             a.innerHTML = value;
-            b.innerHTMl = value;
+            b.innerHTML = value;
         });
     </script>
 <body>
